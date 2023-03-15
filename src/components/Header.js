@@ -1,14 +1,15 @@
 import React from 'react'
 import balloons from '../assets/Cropped_balloons.jpg'
 import logo from '../assets/Logo.png'
-import products from '../assets/f.greenproduct.jpg'
+
 import giftcard from '../assets/f.browngiftcard.jpg'
 import blog from '..//assets/f.yellowblog.jpg'
 import community from '..//assets/Community.jpg'
 import FFC from '..//assets/f.brownflower.jpg'
-import contact from '..//assets/f.yellowcontact.jpg'
+
 import './Header.css'
 import ContactUs from './SVGs/ContactUs'
+import Products from './SVGs/Products'
 
 
 function Header() {
@@ -28,7 +29,9 @@ function Header() {
 
         <div className='navbar'>
   <div className='nav_item'>
-    <img src={products} alt='Products'/>
+    <div className='products'>
+    <Products />
+    </div>
     <span>Products</span>
   </div>
   <div className='nav_item'>
@@ -48,7 +51,9 @@ function Header() {
     <span>Frequent Flower Club</span>
   </div>
   <div className='nav_item'>
+    <div className='contactus'>
     <ContactUs />
+    </div>
     <span>Contact Us</span>
   </div>
 </div>

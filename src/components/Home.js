@@ -7,7 +7,7 @@ import GardeningCalendar from './Containers/GardeningCalendar'
 import NewintheBlog from './Containers/NewintheBlog'
 import GrayBox from './GrayBox'
 import Gallery from './Gallery'
-import ContactUs from './SVGs/ContactUs'
+
 
 function Home() {
   return (
@@ -38,7 +38,7 @@ function Home() {
     <GrayBox />
     <GrayBox />
     <GrayBox />
-    
+  
 
 
 
