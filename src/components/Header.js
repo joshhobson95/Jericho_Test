@@ -1,6 +1,5 @@
 import React from 'react'
 import balloons from '../assets/Cropped_balloons.jpg'
-
 import logo from '../assets/Logo.png'
 import products from '../assets/f.greenproduct.jpg'
 import giftcard from '../assets/f.browngiftcard.jpg'
@@ -9,6 +8,8 @@ import community from '..//assets/Community.jpg'
 import FFC from '..//assets/f.brownflower.jpg'
 import contact from '..//assets/f.yellowcontact.jpg'
 import './Header.css'
+import ContactUs from './SVGs/ContactUs'
+
 
 function Header() {
   return (
@@ -47,20 +48,13 @@ function Header() {
     <span>Frequent Flower Club</span>
   </div>
   <div className='nav_item'>
-    <img src={contact} alt='Contact'/>
+    <ContactUs />
     <span>Contact Us</span>
   </div>
 </div>
 
 
-    {/* <div className='spans'>
-    <span>Prodcuts</span>
-    <span>Gift Cards</span>
-    <span>Blog and Gallery</span>
-    <span>Community</span>
-    <span>Frequent Flower Club</span>
-    <span>Contact Us</span>
-    </div> */}
+
 
 
     </div>

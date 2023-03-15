@@ -62,3 +62,31 @@
 .nav_item:not(:first-child) {
   margin-left: 20px;
 }
+.nav_item svg{
+  height: 10vh;
+  width: auto;
+}
+.nav_item svg:hover{
+animation: riseUp 0.5s ease-out forwards;
+}
+
+@keyframes riseUp {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10px) rotate(-5deg);
+  }
+  40% {
+    transform: translateY(-8px) rotate(5deg);
+  }
+  60% {
+    transform: translateY(-10px) rotate(-5deg);
+  }
+  80% {
+    transform: translateY(-8px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}

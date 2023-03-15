@@ -1,9 +1,13 @@
 import React from 'react'
 import './Home.css'
 import Banner from './Banner'
-import Container from './Container'
+import NewThisWeek from './Containers/NewThisWeek'
+import FreshIdeas from './Containers/FreshIdeas'
+import GardeningCalendar from './Containers/GardeningCalendar'
+import NewintheBlog from './Containers/NewintheBlog'
 import GrayBox from './GrayBox'
 import Gallery from './Gallery'
+import ContactUs from './SVGs/ContactUs'
 
 function Home() {
   return (
@@ -25,10 +29,10 @@ function Home() {
 
 
     <Banner />
-    <GrayBox />
-    <GrayBox />
-    <GrayBox />
-    <GrayBox />
+    <NewThisWeek />
+    <FreshIdeas />
+    <GardeningCalendar />
+    <NewintheBlog />
     <Banner />
     <Gallery />
     <GrayBox />
