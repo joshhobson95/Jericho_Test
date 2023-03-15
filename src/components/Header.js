@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from '../assets/Logo.png'
 import balloons from '../assets/Cropped_balloons.jpg'
+
+import logo from '../assets/Logo.png'
 import products from '../assets/f.greenproduct.jpg'
 import giftcard from '../assets/f.browngiftcard.jpg'
 import blog from '..//assets/f.yellowblog.jpg'

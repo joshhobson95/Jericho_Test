@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css'
 import Banner from './Banner'
 import Container from './Container'
+import GrayBox from './GrayBox'
+import Gallery from './Gallery'
 
 function Home() {
   return (
@@ -23,8 +25,16 @@ function Home() {
 
 
     <Banner />
-  
-
+    <GrayBox />
+    <GrayBox />
+    <GrayBox />
+    <GrayBox />
+    <Banner />
+    <Gallery />
+    <GrayBox />
+    <GrayBox />
+    <GrayBox />
+    
 
 
 

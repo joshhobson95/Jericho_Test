@@ -4,10 +4,14 @@ import icon1 from '../assets/Transparent2.png'
 
 function Container() {
   return (
+  
+
+
     <div className='container'>
+        <div className='y'>
         <div className='container_header'>
                 <div className='container_icon'>
-                    <img  src={icon1}/>
+                    <img  src={icon1} className="c_icon"/>
                 </div>
                 <div className='container_header_text'>
                     <h1>New This Week</h1>
@@ -16,7 +20,7 @@ function Container() {
 
         <div className='container_body'>
                 <div className='container_img'>
-                    <img src='https://images.unsplash.com/photo-1514923995763-768e52f5af87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'/>
+                    <img src='https://images.unsplash.com/photo-1514923995763-768e52f5af87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80' className='c_image'/>
 
                 </div>
                 <div className='container_paragraph'>
@@ -25,11 +29,12 @@ function Container() {
                     </p>
 
                 </div>
-
+                </div>
         </div>
 
 
     </div>
+  
   )
 }
 
