@@ -132,9 +132,11 @@ overflow: hidden;
     font-size: 18pt;
     font-weight: 600;
     color: white;
-  align-self: center;
+    align-self: center;
     margin-top: 5vh;
     cursor: pointer;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.35);
+   
 }
 .maj_button:hover{
     height: 5vh;
@@ -150,8 +152,6 @@ overflow: hidden;
     margin-top: 5vh;
     transition: 1s;
 }
-
-
 
 
 

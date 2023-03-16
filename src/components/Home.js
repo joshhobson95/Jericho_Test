@@ -5,9 +5,9 @@ import NewThisWeek from './Containers/NewThisWeek'
 import FreshIdeas from './Containers/FreshIdeas'
 import GardeningCalendar from './Containers/GardeningCalendar'
 import NewintheBlog from './Containers/NewintheBlog'
-import GrayBox from './GrayBox'
 import Gallery from './Gallery'
 import MoreAboutJericho from './MoreAboutJericho'
+import Footer from './Footer'
 
 
 function Home() {
@@ -37,9 +37,7 @@ function Home() {
     <Banner />
     <Gallery />
     <MoreAboutJericho />
-    <GrayBox />
-    <GrayBox />
-   
+    <Footer />
 
 
 
