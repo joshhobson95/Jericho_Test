@@ -25,16 +25,28 @@ function MoreAboutJericho() {
                     
             </div>
             <div className='maj_right'>
-                <h3>Shine Your Brightest</h3>
-                <p> Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <h3>Grow into something Bigger</h3>
-                <p> Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <h3>Solid Roots</h3>
-                <p> Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+                <div className='r_1'>
+                    <div className='a_s_1'></div>
+                    <h3>Shine Your Brightest</h3>
+                    <p> Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div className='r_2'>
+                <div className='a_s_2'></div>
+                    <h3>Grow into something Bigger</h3>
+                    <p> 
+                    Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div className='r_3'>
+                <div className='a_s_3'></div>
+                    <h3>Solid Roots</h3>
+                    <p> Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
             </div>
 
         </div>
+                    <button className='maj_button'>Learn More</button>
 
 
 
