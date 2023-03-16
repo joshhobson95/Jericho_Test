@@ -12,7 +12,7 @@ function FreshIdeas() {
                         <img  src={icon} className="c_icon"/>
                     </div>
                     <div className='ntw_header_text'>
-                        <h1>Fresh Ideas</h1>
+                        <h3>Fresh Ideas</h3>
                     </div>
             </div>
     

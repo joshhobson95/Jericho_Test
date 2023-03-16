@@ -32,27 +32,33 @@
     white-space: nowrap;
 }
 .w_1{
+    margin-top: 4vh;
     margin-right: 38rem;
     color: #4FA673;
     font-size: 18pt;
+    font-weight: 600;
 }
 .w_2{
     font-size: 56pt;
     font-weight: 700;
     color: #DBBA4B;
-   margin: -30px;
-
+   align-self: center;
 }
 .w_3{
-margin-left: auto;
-color: #4FA673;
-font-size: 18pt;
+    margin-top: 1vh;
+    margin-left: auto;
+    color: #4FA673;
+    font-size: 18pt;
+    font-weight: 600;
 }
 
 .p_1{
     color: white;
     font-weight: 500;
-   margin-right: 7vw;
-   margin-left: 7vw ;
-  
+    font-size: 16pt;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin: 2vw;
+    
+    
 }

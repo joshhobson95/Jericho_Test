@@ -15,7 +15,7 @@ function NewintheBlog() {
                         <img  src={icon1} className="c_icon"/>
                     </div>
                     <div className='ntw_header_text'>
-                        <h1>New In the Blog</h1>
+                        <h3>New In the Blog</h3>
                     </div>
             </div>
     

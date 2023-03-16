@@ -7,6 +7,7 @@ import GardeningCalendar from './Containers/GardeningCalendar'
 import NewintheBlog from './Containers/NewintheBlog'
 import GrayBox from './GrayBox'
 import Gallery from './Gallery'
+import MoreAboutJericho from './MoreAboutJericho'
 
 
 function Home() {
@@ -35,10 +36,10 @@ function Home() {
     <NewintheBlog />
     <Banner />
     <Gallery />
+    <MoreAboutJericho />
     <GrayBox />
     <GrayBox />
-    <GrayBox />
-  
+   
 
 
 

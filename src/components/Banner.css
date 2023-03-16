@@ -4,7 +4,6 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-
 }
 
 .b_img{
@@ -28,6 +27,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 5vh;
 }
 .banner button{
     height: 5vh;
@@ -40,7 +40,7 @@
     font-weight: 600;
     color: white;
     align-self: center;
-    margin-top: 2vh;
+    margin-top: 5vh;
     cursor: pointer;
 }
 .banner button:hover{
@@ -54,18 +54,20 @@
     font-weight: 600;
     color: #DBBA4B;
     align-self: center;
-    margin-top: 2vh;
+    margin-top: 5vh;
     transition: 1s;
 }
 .banner h1{
     color: #ACDC95;
     font-size: 40pt;
-    line-height: 0;
+    font-weight: 800;
+  
 }
 .b_h4{
     color: #4FA673;
     font-size: 18pt;
-
+    padding-bottom: 2vh;
+    font-weight: 600;
 }
 .b_h4g{
     background: -webkit-linear-gradient(left, #FFFFFF, #DBBA4B);
@@ -76,4 +78,6 @@
    -webkit-text-fill-color: transparent;
    margin-left: 16vw;
    font-size: 18pt;
+   font-weight: 600;
+   padding-top: 2vh;
 }

@@ -15,7 +15,7 @@ function NewThisWeek() {
                     <img  src={icon1} className="c_icon"/>
                 </div>
                 <div className='ntw_header_text'>
-                    <h1>New This Week</h1>
+                    <h3>New This Week</h3>
                 </div>
         </div>
 

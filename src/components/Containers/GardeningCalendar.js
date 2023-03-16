@@ -41,7 +41,7 @@ function GardeningCalendar() {
                         <img  src={icon2} className="c_icon"/>
                     </div>
                     <div className='ntw_header_text'>
-                        <h1> {formatDate(new Date)} Gardening Calendar</h1>
+                        <h3> {formatDate(new Date())} Gardening Calendar</h3>
                     </div>
             </div>
     
