@@ -1,6 +1,10 @@
+.more_about_jericho{
+
+}
 .maj_1{
     display: flex;
     justify-content: center;
+    padding: 5rem;
 }
 .maj_header{
     background-color: #242424;
@@ -14,11 +18,90 @@
     font-size: 35pt;
     font-weight: 700;
     padding: 3rem;
-    background: -webkit-linear-gradient(left, #4FA673,#DBBA4B);
-    background: -o-linear-gradient(right, #4FA673,#DBBA4B );
-    background: -moz-linear-gradient(right,  #4FA673,#DBBA4B );
-    background: linear-gradient(to right,  #4FA673,#DBBA4B ); 
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #4FA673 14.46%, #DBBA4B 96.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  
+}
 
+.maj_2{
+    display: flex;
+    height: 80vh;
+    padding-top: 10vh;
+}
+.maj_left{
+height: auto;
+width: 35vw;
+margin-left: 3vw;
+}
+.maj_right{
+height: auto;
+width: 60vw;
+display: flex;
+flex-direction: column;
+margin-top: 5vh;
+}
+.maj_right h3{
+    font-size: 26pt;
+    padding: 2rem;
+    text-align: left;
+ 
+}
+.maj_right p{
+    font-size: 14pt;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 10rem;
+    color: #315E30;
+}
+.s_container{
+position: relative;
+height: 80vh;
+overflow: hidden;
+}
+.s_yellow{
+    height: 35vh;
+    width: 25vw;
+    background-color: #DBBA4B;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    z-index: 3;
+    position: absolute;
+    top: 0vh;
+}
+.s_green{
+    height: 25vh;
+    width: 24vw;
+    background-color: #4FA673;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    z-index: 1;
+    position: absolute;
+    top: 26vh;
+    left: 10vw;
+
+}
+.s_brown{
+    height: 30vh;
+    width: 30vw;
+    background-color:  #95562E;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    z-index: 2;
+    position: absolute;
+    top: 45vh;
+
+}
+.dirt_hands{
+    height: 50vh;
+    width:  auto;
+    position: absolute;
+    top: 10vh;
+    right: 12vw;
+    z-index: 5;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 9px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 14px;
+   
 }
