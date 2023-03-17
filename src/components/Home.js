@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Banner from './Banner'
+import Banner2 from './Banner2'
 import NewThisWeek from './Containers/NewThisWeek'
 import FreshIdeas from './Containers/FreshIdeas'
 import GardeningCalendar from './Containers/GardeningCalendar'
@@ -8,6 +9,7 @@ import NewintheBlog from './Containers/NewintheBlog'
 import Gallery from './Gallery'
 import MoreAboutJericho from './MoreAboutJericho'
 import Footer from './Footer'
+import DeliveryVan from './SVGs/DeliveryVan'
 
 
 function Home() {
@@ -34,7 +36,7 @@ function Home() {
     <FreshIdeas />
     <GardeningCalendar />
     <NewintheBlog />
-    <Banner />
+    <Banner2 />
     <Gallery />
     <MoreAboutJericho />
     <Footer />

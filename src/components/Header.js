@@ -1,18 +1,22 @@
 import React from 'react'
 import balloons from '../assets/Cropped_balloons.jpg'
 import logo from '../assets/Logo.png'
-
-import giftcard from '../assets/f.browngiftcard.jpg'
-import blog from '..//assets/f.yellowblog.jpg'
-import community from '..//assets/Community.jpg'
-import FFC from '..//assets/f.brownflower.jpg'
-
 import './Header.css'
-import ContactUs from './SVGs/ContactUs'
-import Products from './SVGs/Products'
+import ContactUsIcon from './SVGs/ContactUsIcon'
+import ProductsIcon from './SVGs/ProductsIcon'
+import BlogIcon from './SVGs/BlogIcon'
+import CommunityIcon from './SVGs/CommunityIcon'
+import FFCIcon from './SVGs/FFCIcon'
+import GiftCardIcon from './SVGs/GiftCardIcon'
+import DropdownProducts from './DropdownProducts'
+
 
 
 function Header() {
+
+
+
+  
   return (
     <div className='header'>
 
@@ -29,30 +33,40 @@ function Header() {
 
         <div className='navbar'>
   <div className='nav_item'>
-    <div className='products'>
-    <Products />
+    <div className='products_icon'>
+    <ProductsIcon />
+    <DropdownProducts />
     </div>
     <span>Products</span>
   </div>
   <div className='nav_item'>
-    <img src={giftcard} alt='Gift Card'/>
+    <div className='gift_card_icon'>
+    <GiftCardIcon />
+   
+    </div>
     <span>Gift Cards</span>
   </div>
   <div className='nav_item'>
-    <img src={blog} alt='Blog'/>
+    <div className='blog_icon'>
+      <BlogIcon />
+    </div>
     <span>Blog and Gallery</span>
   </div>
   <div className='nav_item'>
-    <img src={community} alt='Community'/>
+    <div className='community_icon'>
+      <CommunityIcon />
+    </div>
     <span>Community</span>
   </div>
   <div className='nav_item'>
-    <img src={FFC} alt='FFC'/>
+    <div className='ffc_icon'>
+      <FFCIcon />
+    </div>
     <span>Frequent Flower Club</span>
   </div>
   <div className='nav_item'>
     <div className='contactus'>
-    <ContactUs />
+    <ContactUsIcon />
     </div>
     <span>Contact Us</span>
   </div>

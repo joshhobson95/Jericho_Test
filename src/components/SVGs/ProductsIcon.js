@@ -1,7 +1,7 @@
 import React from "react";
 import './Products.css'
 
-function Products() {
+function ProductsIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,4 +20,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default ProductsIcon;
